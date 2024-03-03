@@ -1,5 +1,6 @@
 import { Contador } from "./components/Contador";
 import { ContadorConHook } from "./components/ContadorConHook";
+import { FormPage } from "./components/FormPage";
 import { LoginPage } from "./components/LoginPage";
 import { UserPages } from "./components/UserPages";
 import { Funciones } from "./typescript/Funciones";
@@ -10,6 +11,8 @@ const App = () => {
   return (
     <div className="mt-2">
       <h1 className="text-5xl font-semibold">Reforzando TS + React</h1>
+      <hr className="my-2" />
+      <FormPage/>
       <hr className="my-2" />
       <UserPages/>
       <hr className="my-2" />
